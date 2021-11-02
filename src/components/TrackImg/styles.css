@@ -1,0 +1,46 @@
+.track-image-component-container {
+  position: relative;
+  display: block;
+  border-radius: 5%;
+  --bs-gutter-x: 0rem;
+  margin-right: 0rem;
+  margin-left: 0rem;
+}
+
+.track-image-component-image {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: auto;
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  border-radius: 5%;
+}
+
+.track-image-component-image:before {
+  padding-top: 100%;
+  content: "";
+  display: block;
+}
+
+.track-play-hover {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  /* z-index: 2; */
+}
+
+.track-play-hover:hover {
+  background-image: url("./play-button-hover.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.track-play-hover:before {
+  padding-top: 100%;
+  content: "";
+  display: block;
+}

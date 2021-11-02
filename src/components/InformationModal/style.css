@@ -1,0 +1,15 @@
+.information-modal {
+  position: fixed;
+  background-color: burlywood;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  border-radius: 25px;
+  padding: 30px;
+}
+
+.info-modal-title {
+  border-bottom: 2px black solid;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,36 @@
+@media (max-width: 425px) {
+  .right-menu {
+    display: none;
+  }
+
+  .mobile-bottom-menu {
+    position: fixed !important;
+    top: 90vh;
+    width: 100vw;
+    background-color: var(--main-modal-background);
+    display: flex;
+    z-index: 20;
+  }
+
+  .mobile-bottom-menu > div {
+    width: 100%;
+  }
+
+  .mobile-bottom-menu-button {
+    position: relative;
+    width: 25%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mobile-bottom-menu-button > a > div {
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+}

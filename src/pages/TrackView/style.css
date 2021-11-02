@@ -1,0 +1,23 @@
+.page {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.track-view {
+  width: 80%;
+  height: 60vh;
+  margin: 0 auto;
+}
+.track-image-container {
+  margin-top: 55px;
+  width: 60%;
+  margin-left: 20%;
+  height: 30vh;
+  border-radius: 10px;
+  background-color: grey;
+}
+.track-info-container {
+  margin-top: 35px;
+  text-align: center;
+}

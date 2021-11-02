@@ -1,0 +1,20 @@
+.button {
+  padding: 0.5em 4rem;
+  border: 1px solid var(--yellow);
+  border-radius: 8px;
+  background-color: var(--main-container-color);
+  color: var(--yellow);
+}
+
+.button:hover {
+  background-color: var(--yellow);
+  color: var(--main-container-color);
+}
+
+.small-button {
+  padding: 0.5em 2rem;
+  border: 1px solid var(--yellow);
+  border-radius: 8px;
+  background-color: var(--main-container-color);
+  color: var(--yellow);
+}

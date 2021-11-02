@@ -1,0 +1,57 @@
+.blockTrack-Container-small {
+  width: 7.6rem;
+  /* height: 6rem; */
+  align-items: center;
+  /* border: 1px solid darkorchid; */
+}
+
+.blockTrack-Container-big {
+  width: 9.8rem;
+  /* height: 8rem; */
+  align-items: center;
+  /* border: 1px solid darkorchid; */
+}
+
+.blockTrack-background {
+  background: var(--main-container-color);
+  padding: 0.3rem 0.3rem;
+  border-radius: 2%;
+  box-shadow: 0.1rem 0.1rem 0.5rem 0.2rem rgba(0, 0, 0, 0.3);
+}
+
+.blockTrack-img-container {
+  --bs-gutter-x: 0rem;
+  margin-right: 0rem;
+  margin-left: 0rem;
+}
+
+.blockTrack-background:hover {
+  background: var(--main-container-color-hover);
+  box-shadow: 0.05rem 0.05rem 1rem 0.2rem rgba(143, 143, 143, 0.3);
+}
+
+.blockTrack-title {
+  margin-bottom: 0rem;
+  font-weight: normal;
+  font-size: 1rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.blockTrack-author {
+  margin-bottom: 0rem;
+  font-size: 0.8rem;
+  font-weight: lighter;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.liked {
+  color: red;
+}
+
+.like-disabled {
+  color: grey;
+}

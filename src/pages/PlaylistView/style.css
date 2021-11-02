@@ -1,0 +1,82 @@
+.options-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.option-element-playlist {
+  color: black;
+  margin: 0 5px 0 5px;
+  cursor: pointer;
+}
+
+.option-element-playlist:hover {
+  padding: 1px;
+}
+
+.option-element-playlist-disabled {
+  color: lightgrey;
+  margin: 0 5px 0 5px;
+}
+
+.hoverBubble {
+  background: #333333;
+  color: #ffffff;
+  cursor: pointer;
+  opacity: 0;
+  padding: 5px;
+  position: absolute;
+  text-align: left;
+  visibility: hidden;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  -ms-transition: all 0.25s;
+  -o-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.bubblePosition {
+  bottom: 115%;
+  height: inherit;
+  left: 0;
+  min-height: 200px;
+  top: auto;
+  width: 190px;
+}
+
+.hoverBubble:after,
+.bubblePosition:after {
+  border: 8px solid transparent;
+  border-top-color: #333333;
+  bottom: -15px;
+  content: "";
+  height: 0px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  width: 0px;
+}
+
+/* bubble hover */
+.owner-information:hover .hoverBubble {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  -ms-transition: all 0.25s;
+  -o-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.liked-playlist {
+  color: rgb(37, 148, 3);
+}

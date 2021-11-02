@@ -1,0 +1,26 @@
+.signNav {
+  width: 100%;
+  min-height: 3rem;
+  display: flex;
+  border-bottom: 1px solid var(--yellow);
+  margin-bottom: 1rem;
+}
+
+.signNav a:first-of-type {
+  border-right: 1px solid var(--yellow);
+}
+
+.signNav > a {
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  text-decoration: none;
+  color: white;
+}
+
+.current {
+  color: var(--yellow) !important;
+  font-weight: bold;
+}

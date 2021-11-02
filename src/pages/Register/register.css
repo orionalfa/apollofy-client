@@ -1,0 +1,32 @@
+.register {
+  margin: 1% 10%;
+  padding: 10%;
+}
+.registerForm {
+  margin: 10%;
+}
+
+.field {
+  display: flex;
+  flex-flow: column-reverse;
+  margin-bottom: 1em;
+}
+
+.img {
+  margin: 2% 25%;
+  min-width: 350px;
+}
+
+.register-first-last-name {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.register-first-last-name > div {
+  width: 49%;
+}
+
+.register-first-last-name > div:first-child {
+  margin-right: 2%;
+}

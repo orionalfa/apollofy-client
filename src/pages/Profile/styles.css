@@ -1,0 +1,136 @@
+.profile-user-title {
+  display: flex;
+  align-items: center;
+}
+
+.profile-user-logout {
+  justify-content: end;
+}
+
+.profile-logout-icon {
+  width: 100px;
+}
+
+@media (max-width: 425px) {
+  .profile-logout-icon {
+    width: 50px;
+  }
+}
+
+.profile-view-profile-image {
+  height: fit-content;
+}
+
+.profile-input-row {
+  min-height: 2rem;
+}
+
+.uploading-file {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s ease-in-out;
+  padding: 1rem 0;
+  position: relative;
+  padding: 1rem;
+}
+
+.uploading-file > h3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.uploading-file > button {
+  width: 1%;
+  display: flex;
+  justify-content: center;
+}
+
+.upload-file-input {
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  position: absolute;
+}
+
+.upload-file-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: rgba(255, 255, 255, 0.377);
+  border-width: 3px;
+  border-style: dashed;
+  border-radius: 1rem;
+}
+
+.upload-file-input:hover ~ .upload-file-container {
+  border-color: white;
+}
+
+.change-profile-picture {
+  content: " ";
+  width: 83%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 4%;
+  border-radius: 100%;
+  opacity: 0;
+}
+
+.change-profile-picture:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.747);
+  color: black;
+  opacity: 1;
+}
+
+.change-profile-picture:hover > h4 {
+  color: black !important;
+  display: flex;
+}
+
+.profile-link-buttons {
+  display: flex;
+  justify-content: left;
+  width: 80%;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+}
+
+.profile-link-buttons:hover {
+  outline: 1px solid var(--yellow);
+  background-color: rgb(59, 59, 59);
+}
+
+.link-cards-profile-size {
+  height: 6rem;
+}
+
+.link-cards-profile-size > * {
+  min-width: 80%;
+  max-width: 80%;
+}
+
+.profile-stats-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 4rem;
+  /* border: 0.2rem solid white; */
+  border-radius: 1rem;
+  background-color: var(--main-container-color);
+}
+
+.profile-stats-container > span {
+  font-size: 2rem;
+}

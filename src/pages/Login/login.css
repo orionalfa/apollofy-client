@@ -1,0 +1,29 @@
+.login-main {
+  width: 100vw;
+  height: 100vh;
+}
+
+.login-register {
+  background-color: var(--main-container-color);
+  padding: 0% 5% 2%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 1rem;
+}
+
+.login-register-button-centered {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.registerForm {
+  margin: 10%;
+}
+
+.img {
+  margin: 2% 25%;
+  min-width: 350px;
+}

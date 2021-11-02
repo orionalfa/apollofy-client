@@ -1,0 +1,48 @@
+.modal-background {
+  position: fixed;
+  z-index: 10;
+  right: 0px;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  /* padding-left: 15%;
+  padding-right: 15%; */
+  background-color: var(--less-blue);
+}
+
+.track-upload {
+  background-color: var(--main-modal-background);
+  padding: 2% 5% 2%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 50vw;
+  min-width: 300px;
+  transform: translate(-50%, -50%);
+  border-radius: 1rem;
+}
+
+.cancel-button {
+  cursor: pointer;
+}
+
+@media (max-width: 425px) {
+  .track-upload {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .upload-separator > div {
+    margin-bottom: 2rem;
+  }
+}
+
+.uploaded-file {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.uploaded-file > img {
+  max-width: 5rem;
+}

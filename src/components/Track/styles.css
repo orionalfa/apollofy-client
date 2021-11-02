@@ -1,0 +1,55 @@
+.track-row {
+  height: 3.2rem;
+  background: var(--main-container-color);
+  padding: 0.25rem;
+  border-radius: 0.2rem;
+  margin-bottom: 0.2rem;
+  --bs-gutter-x: 0rem;
+}
+
+.track-field-centered {
+  display: flex;
+  align-items: center;
+}
+
+.track-field-centered > p {
+  margin-bottom: 0.2rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  overflow: hidden;
+}
+
+.track-row:hover {
+  background: var(--main-container-color-hover);
+}
+
+.track-row-img-container {
+  /* width: 70%;
+  height: 100%; */
+  width: 2.7rem;
+  height: 2.7rem;
+}
+
+.track-title {
+  margin-bottom: 0rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.track-author {
+  margin-bottom: 0rem;
+  font-size: 0.75rem;
+  font-weight: lighter;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.track-album {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,16 @@
+:root {
+  --main-bg-color: #000000;
+  --main-container-color: #61616149;
+  --main-container-color-opacity: #0c2033;
+  --less-main-container-color: #2f2f2f9f;
+  --main-container-color-hover: #555555;
+  --main-modal-background: #203f5c;
+  --main-modal-background-transparent: #203f5ce3;
+  --active-user: #78bd6f;
+  --purple: #846ae9;
+  --yellow: #ffc107;
+  --less-yellow: #ffc1072f;
+  --blue: #08457e;
+  --less-blue: #08457e9d;
+  --dark-blue: #122f4b;
+}
