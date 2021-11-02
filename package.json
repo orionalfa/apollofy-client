@@ -39,9 +39,9 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "craco start",
+    "start": "react-scripts start",
     "build": "craco build",
-    "build:style": "tailwind build src/styles/tailwind.css -o src/styles/tailwind.css",
+    "build:style": "index build src/index.css -o src/index.css",
     "netlify:build": "yarn run build:style && yarn run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
