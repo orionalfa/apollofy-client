@@ -40,7 +40,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "craco build",
+    "build:style": "index build src/index.css -o src/index.css",
+    "netlify:build": "yarn run build:style && yarn run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
