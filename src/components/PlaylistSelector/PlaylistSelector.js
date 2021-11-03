@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Select from "react-select";
-import Button from "../../components/Button";
+import Button from "../Button";
 import { Checkbox, FormControlLabel } from "@material-ui/core";
 import {
   getAllMyPlaylists,

@@ -17,7 +17,7 @@ import {
 import { showDialogue } from "../../redux/dialogueHandler/actions";
 
 //Components
-import TrackImg from "../../components/TrackImg";
+import TrackImg from "../TrackImg";
 import { resetPositionInHistory } from "../../services/localStorage";
 
 import { likeHandleRequest } from "../../services/api/apiTrack";

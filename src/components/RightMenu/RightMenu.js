@@ -13,7 +13,7 @@ import { HomeOutlined, CloudUpload, SearchOutlined } from "@material-ui/icons";
 import LogoutOutlinedIcon from "@mui/icons-material/LogoutOutlined";
 
 import ProfileCircleIcon from "../ProfileCircleIcon";
-import Input from "../../components/Input";
+import Input from "../Input";
 
 import { isPlayBarDisplayedAction } from "../../redux/trackData/actions";
 import { setUploadTrackModal } from "../../redux/modalsHandler/actions";

@@ -1,7 +1,7 @@
 import "./style.css";
 import { useSelector, useDispatch } from "react-redux";
 import { useHistory } from "react-router";
-import Button from "../../components/Button";
+import Button from "../Button";
 import { deleteTrack } from "../../services/api";
 import { deletePlaylistById } from "../../services/api/apiPlaylist";
 import { reloadFetchAction } from "../../redux/trackData/actions";
